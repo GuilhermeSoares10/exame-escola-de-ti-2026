@@ -2,9 +2,9 @@
 
 # ALUNO
 
-Nome: Guilherme Soares
+Nome: Francisco Guilherme Soares dos Santos
 
-RA: >>> PREENCHER <<<
+RA: 23389027-2
 
 Conta GitHub: @GuilhermeSoares10
 
