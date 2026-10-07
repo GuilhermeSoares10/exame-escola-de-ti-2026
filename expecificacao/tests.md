@@ -1,60 +1,4 @@
-**# Testes — Zona Azul Digital
-
-## 1. Abertura de bilhete
-
-Tabela:
-| Cenário | Entrada | Esperado |
-
-## 2. Cálculo de cobrança
-
-Tabela:
-| Cenário | Duração | Esperado |
-
-## 3. Frações
-
-Tabela:
-| Cenário | Duração | Esperado |
-
-## 4. Teto
-
-Tabela:
-| Cenário | Valor calculado | Esperado |
-
-## 5. Tolerância
-
-Tabela:
-| Cenário | Duração | Esperado |
-
-## 6. Encerramento
-
-Tabela:
-| Cenário | Estado | Esperado |
-
-## 7. Cancelamento
-
-Tabela:
-| Cenário | Estado | Esperado |
-
-## 8. Uma vaga por placa
-
-Tabela:
-| Cenário | Situação | Esperado |
-
-## 9. Histórico
-
-Tabela:
-| Cenário | Bilhetes | Esperado |
-
-## 10. Relatório diário
-
-Tabela:
-| Cenário | Dados | Esperado |
-
-## 11. Validações
-
-Tabela:
-| Entrada inválida | Status | Erro esperado |
-**Testes — Zona Azul Digital
+Testes — Zona Azul Digital
 
 (Exemplos considerando: Tarifa R$ 6,00/h | Fração 15 min | Teto R$ 20,00 | Tolerância 10 min)
 
@@ -88,22 +32,3 @@ Bilhete não existe (ID 999): Retorna status 404 e erro bilhete_nao_encontrado
 Re-encerrar bilhete: Retorna status 409 e erro bilhete_ja_encerrado
 
 Placa já estacionada: Retorna status 409 e erro bilhete_em_aberto
-
-📋 5. tasks.md
-Tasks — Zona Azul Digital
-
-Tarefa 1: Criar o projeto Python, instalar dependências e carregar as variáveis do arquivo variante.py.
-
-Tarefa 2: Criar o modelo do bilhete e a estrutura em memória para guardar os dados.
-
-Tarefa 3: Criar a rota POST /bilhetes com validação de placa e checagem de vaga ocupada.
-
-Tarefa 4: Criar a lógica de cálculo (minutos, tolerância, frações, teto) e a rota POST /bilhetes/{id}/encerramento.
-
-Tarefa 5: Criar a rota de cancelamento POST /bilhetes/{id}/cancelamento.
-
-Tarefa 6: Criar as rotas de busca (GET /bilhetes/ativos e GET /bilhetes com filtro de placa).
-
-Tarefa 7: Criar a rota do relatório diário GET /relatorios/diario.
-
-Tarefa 8: Fazer os testes automatizados com pytest e testar tudo.
