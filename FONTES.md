@@ -15,7 +15,7 @@
 > como fonte declarada.
 
 | # | URL | O que foi consultado | Onde aparece no entregável |
-| --- | --- | --- | --- |
+| ChatGPT | [---](https://chatgpt.com/share/6ac6d8e3-31f0-83ea-be5b-ef896f628cb2) | consulta para interpretação do enunciado e orientação das especificações | na pasta expecificacao no .md |
 | — | | | |
 
 *(Ex.: `https://docs.oracle.com/...` → sintaxe de `Optional` → `plan.md` na
